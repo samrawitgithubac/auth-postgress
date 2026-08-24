@@ -161,6 +161,10 @@ PostgreSQL (auth_db)
 | ORM | None | Prisma |
 | Survives restart | No | Yes |
 | Port | 4000 | 4001 |
+
+## Folder structure
+
+```
 auth-postgres/
 ├── prisma/
 │   ├── schema.prisma      ← Database design (blueprint)
@@ -176,3 +180,5 @@ auth-postgres/
 │   └── utils/             ← JWT helpers
 ├── .env                   ← Secrets + DATABASE_URL
 └── docs/                  ← Teaching guides
+```
+
